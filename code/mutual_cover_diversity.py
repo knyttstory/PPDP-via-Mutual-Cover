@@ -20,7 +20,7 @@ class MutualCover:
         self.original_data = original_data
         self.output_path = "./results/mutual_cover/diversity/mutual_"
         self.l_values = [10, 12, 15, 18, 20]
-        self.k_values = [5, 6, 7, 8, 10]  # indicates the values of 1/delta respectively, for example, k=5 is equivalent to delta=1/5
+        self.k_values = [5, 6, 7, 8, 10]  # the values of k indicate the values of 1/delta respectively, for example, k=5 is equivalent to delta=1/5
         self.seed_nums = range(10)
 
     def oper_start(self):

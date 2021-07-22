@@ -12,7 +12,7 @@ class CheckDisclosure:
         self.output_path = "./results/mutual_cover/diversity/disclosure"                            # 结果输出路径
         self.seed_numbers = range(0, 10)                        # 随机种子
         self.l_values = [10, 12, 15, 18, 20]                    # l参数
-        self.k_values = [6, 7]                              # k参数
+        self.k_values = [5, 6, 7, 8, 10]                        # the values of k indicate the values of 1/delta respectively, for example, k=5 is equivalent to delta=1/5
         self.probabilities = [0.3, 0.5, 0.8, 1]                 # 攻击者保留QI值的概率
         self.qi_attributes = ["RELATE", "SEX", "AGE", "MARST", "RACE", "EDUC", "UHRSWORK"]          # 作为匹配条件的属性
 

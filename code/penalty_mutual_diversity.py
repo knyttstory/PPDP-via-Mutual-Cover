@@ -8,8 +8,7 @@ class CheckPenalty():
         self.output_path = "./results/mutual_cover/diversity/penalty"                            # 结果输出路径
         self.seed_numbers = range(0, 10)                        # 随机种子
         self.l_values = [10, 12, 15, 18, 20]                    # l参数
-        # self.k_values = [5, 8, 10]                              # k参数
-        self.k_values = [6, 7]
+        self.k_values = [5, 6, 7, 8, 10]   # the values of k indicate the values of 1/delta respectively, for example, k=5 is equivalent to delta=1/5
 
     def check_oper(self):
         self.original_data = pd.read_csv(self.ori_path)  # 读取原始数据

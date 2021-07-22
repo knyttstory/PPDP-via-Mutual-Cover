@@ -1,4 +1,4 @@
-# PPDP-via-Mutual-Cover
+# PPDP via Mutual Cover
 
 Implementation of the mutual cover algorithm.
 
